@@ -1,0 +1,68 @@
+body {
+  text-align: center; /*Alinha imagens e textos*/
+  background-image: url("ilhadragaocity.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Remove margens padrão */
+  height: 100vh; /* Garante que o fundo cubra a tela */
+}
+
+/* Estilo para o elemento h1 */
+h1 {
+  text-align: center; /* Centraliza o texto dentro do elemento h1 */
+  color: red; /* Define a cor do texto como vermelha */
+  border-color: black; /* Define a cor da borda como preta (mas não especifica o estilo da borda) */
+  background-color: darkgreen; /* Define o fundo do elemento como verde escuro */
+}
+
+/* Estilo para a lista não ordenada com a classe "horizontal" */
+ul.horizontal {
+  list-style-type: none; /* Remove os marcadores da lista padrão */
+  margin: 0; /* Remove as margens externas da lista */
+  padding: 0; /* Remove o espaçamento interno da lista */
+  overflow: hidden; /* Garante que o conteúdo da lista não transborde */
+  background-color: #333333; /* Define o fundo da lista como cinza escuro */
+
+  position: absolute; /* Posiciona a lista de forma absoluta em relação ao elemento pai */
+  width: 100%; /* Define a largura da lista como 100% da largura do container */
+}
+
+/* Estilo ao passar o mouse sobre os links dentro da lista horizontal */
+.horizontal li a:hover {
+  background-color: #111111; /* Altera o fundo do link para cinza ainda mais escuro */
+}
+
+/* Estilo para os links dentro da lista horizontal */
+.horizontal li a {
+  display: block; /* Garante que os links sejam exibidos como blocos */
+  color: #ffffff; /* Define a cor do texto como branca */
+  text-align: center; /* Centraliza o texto dentro do link */
+  padding: 14px 16px; /* Adiciona espaçamento interno nos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para os itens (li) dentro da lista horizontal */
+.horizontal li {
+  float: left; /* Faz com que os itens da lista fiquem lado a lado, horizontalmente */
+}
+
+/* Estilo para a classe "descricao" */
+.descricao {
+  text-align: center; /* Centraliza o texto dentro do elemento com essa classe */
+}
+
+.imagem {
+  text-align: center; /*Alinha imagens e textos*/
+}
+p {
+  border-color: burlywood;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #255c05; /*cor de dentro da letra*/
+  -webkit-text-stroke-width: 1px; /*tamanho da bord*/
+  -webkit-text-stroke-color: rgb(255, 208, 0); /*cor da borda */
+  margin: 150px;
+  text-align: center;
+}
